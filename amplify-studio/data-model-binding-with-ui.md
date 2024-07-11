@@ -141,7 +141,7 @@ amplify pull이 완료되면 파일 탐색기에서 개발 중인 애플리케�
 
 import './App.css';
 import { Amplify } from 'aws-amplify';
-import { NavBar, SideBar, SocialCollection } from './ui-components';  /* <-- From "Social" to "SocialCollection" */
+import { NavBar, SideBar, SocialCollection } from './ui-components'; // /* <-- From "Social" to "SocialCollection" */
 import { Flex, withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
@@ -163,7 +163,7 @@ function App() {
             direction={"row"}
           >
             <SideBar/>
-            <SocialCollection/>  // /* From "Social" to "SocialCollection" */
+            <SocialCollection/>  
           </Flex>
         </Flex>
       </Flex>

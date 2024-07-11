@@ -21,6 +21,18 @@ Amplify Studio를 열고 왼쪽 메뉴에서 "Data"를 클릭합니다.
 | likesCount     | Int    |                        |
 | author         | String |                        |
 
+
+
+완료 후 Manage API Authorization mode & keys를 클릭합니다. 그런 다음 Conflict resolution & offline capabilities를 enable합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 1.20.05.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
 수정이 완료되면 우측 상단의 "Save and Deploy" 버튼을 클릭합니다. "Save and Deploy" 버튼을 클릭하면 아래와 같은 팝업이 뜨므로 "Deploy" 버튼을 클릭하면 됩니다.
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>

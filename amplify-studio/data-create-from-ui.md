@@ -39,7 +39,7 @@ _그리고 src > App.js_ 에 있는 코드를 아래 코드로 다시 작성합�
 ```js
 import './App.css';
 import { Amplify } from 'aws-amplify';
-import { NavBar, SideBar, SocialCollection, PostForm } from './ui-components';  /* <-- Add "PostForm" */
+import { NavBar, SideBar, SocialCollection, PostForm } from './ui-components'; // /* <-- Add "PostForm" */
 import { Flex, withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
@@ -62,7 +62,7 @@ function App() {
           >
             <SideBar/>
             <SocialCollection/>
-            <PostForm/>  // <-- Add "PostForm"
+            <PostForm/>  
           </Flex>
         </Flex>
       </Flex>
