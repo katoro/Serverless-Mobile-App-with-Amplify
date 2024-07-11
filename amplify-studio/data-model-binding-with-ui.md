@@ -57,7 +57,7 @@ UI Library의 Social를 선택후 Configure 버튼을 눌러봅니다.
 
 그러면 다음과 같은 팝업이 나타납니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 이미 채워진 SocialCollection으로 컬렉션의 이름을 지정하고 만들기를 클릭합니다.
 
@@ -85,7 +85,7 @@ UI Library의 Social를 선택후 Configure 버튼을 눌러봅니다.
 
 Amplify Studio의 UI 라이브러리 페이지로 돌아가서 NavBar 구성 요소를 선택하고 구성 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 아래와 같이 NavBar의 Elements Tree가 표시되므로 NavBar > RightMenu > UserName을 클릭합니다.
 

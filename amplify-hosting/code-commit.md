@@ -6,13 +6,24 @@
 
 이 모듈의 아키텍처는 매우 간단합니다. HTML, CSS, JavaScript, 이미지 및 기타 파일을 포함한 모든 정적 웹 콘텐츠는 AWS Amplify 콘솔에서 관리되고 Amazon CloudFront를 통해 제공됩니다. 그러면 최종 사용자는 AWS Amplify 콘솔에서 노출된 공개 웹 사이트 URL을 사용하여 사이트에 액세스합니다. 사이트를 사용 가능하게 만들기 위해 웹 서버를 실행하거나 다른 서비스를 사용할 필요가 없습니다.
 
+
+
+git config 명령을 통해 정보를 입력해둡니다.
+
+```
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+```
+
 \
-code commit 과 연동하기
+code commit 리포지토리를 생성합니다.
 
 ```
 cd ~/environment/my-react-app/
 aws codecommit create-repository --repository-name my-react-app
 ```
+
+
 
 git 명령어를 통해 리포지토리에 코드를 등록합니다.
 
@@ -20,6 +31,7 @@ git 명령어를 통해 리포지토리에 코드를 등록합니다.
 cd ~/environment/my-react-app/
 git init
 git remote add origin codecommit://my-react-app
-git checkout -b main
-git push -u origin main
+git add .
+git commit -m "fisrt commit"
+git push -u origin master
 ```

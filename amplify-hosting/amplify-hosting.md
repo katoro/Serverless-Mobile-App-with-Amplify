@@ -28,19 +28,55 @@ CodeCommit에서 생성한 my-react-app 리포지토리를 선택합니다. 브�
 
 
 
-1. **새 역할 만들기** 를 클릭 하고 **Amplify** 가 선택되어 있는지 확인한 **다음 다음 권한** , **다음: 태그** , **다음: 검토** 를 차례로 클릭 합니다.
-2. 역할에 새 이름 `amplify-backend-role` 을 지정하고 역할 **만들기** 를 클릭 합니다.
-3. 검색 필터에서 을 `amplify-backend-role` 검색하고 역할 이름을 클릭합니다.
-4. **권한** 탭에서 정책 연결을 클릭하고 `AWSCodeCommitReadOnly`정책을 검색한 다음 **정책** 이름 옆에 있는 확인란을 클릭하고 정책 **연결** 을 클릭합니다 .&#x20;
-5. 이 탭을 닫고 AWS Amplify Build 구성 콘솔로 돌아갑니다.
-6. 원형 화살표 버튼을 클릭하여 역할 목록을 새로고침하고 위 단계에서 생성된 `amplify-backend-role`역할을 선택합니다.
-7. **다음** 선택
-8. **검토** 페이지에서 **저장 및 배포를** 선택 합니다.
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.03.21.png" alt=""><figcaption></figcaption></figure>
+
+**새 역할 만들기** 를 클릭 하고 **Amplify** 가 선택되어 있는지 확인한 **다음 다음 권한** , **다음: 태그** , **다음: 검토** 를 차례로 클릭 합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.04.35.png" alt=""><figcaption></figcaption></figure>
+
+역할에 새 이름 `amplify-backend-role` 을 지정하고 역할 **만들기** 를 클릭 합니다.
 
 
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.09.10.png" alt=""><figcaption></figcaption></figure>
+
+검색 필터에서 을 `amplify-backend-role` 검색하고 역할 이름을 클릭합니다.
+
+
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.09.38.png" alt=""><figcaption></figcaption></figure>
+
+**권한** 탭에서 정책 연결을 클릭합니다.
+
+
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.10.47.png" alt=""><figcaption></figcaption></figure>
+
+`AWSCodeCommitReadOnly`정책을 검색한 다음 체크하여 **권한 추가** 버튼을 클릭합니다
+
+이 탭을 닫고 AWS Amplify Build 구성 콘솔로 돌아갑니다.
+
+
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.11.55.png" alt=""><figcaption></figcaption></figure>
+
+원형 화살표 버튼을 클릭하여 역할 목록을 새로고침하고 위 단계에서 생성된 `amplify-backend-role`역할을 선택합니다.
+
+
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.12.22.png" alt=""><figcaption></figcaption></figure>
+
+**다음** 선택후 **검토** 페이지에서 **저장 및 배포를** 선택 합니다.
+
+
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-07-11 오후 4.13.01.png" alt=""><figcaption></figcaption></figure>
 
 이 초기 빌드 및 배포 프로세스는 Amplify Console에서 필요한 리소스를 생성하고 코드를 배포하는 데 최대 5분이 소요될 수 있습니다.
 
-\
 
+
+
+
+완료되면 제공되는 주소로 접속이 가능합니다.
 
