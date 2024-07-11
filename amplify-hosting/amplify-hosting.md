@@ -1,8 +1,6 @@
 # Amplify Hosting
 
-다음으로 사용하게 될 [AWS Amplify 콘솔](https://aws.amazon.com/amplify/console/) 방금 git에 커밋한 웹사이트를 배포합니다. Amplify Console은 정적 웹 애플리케이션 코드를 저장할 장소를 설정하는 작업을 처리하고 해당 애플리케이션의 수명 주기를 단순화하고 모범 사례를 활성화하는 데 유용한 여러 기능을 제공합니다.
-
-\
+다음으로 사용하게 될 [AWS Amplify 콘솔](https://aws.amazon.com/amplify/console/) 방금 git에 커밋한 웹사이트를 배포합니다. Amplify Console은 정적 웹 애플리케이션 코드를 저장할 장소를 설정하는 작업을 처리하고 해당 애플리케이션의 수명 주기를 단순화하고 모범 사례를 활성화하는 데 유용한 여러 기능을 제공합니다.\
 
 
 Amplify 앱으로 진입해서, 브랜치 섹션에서 **시작하기** 버튼을 클릭합니다.\

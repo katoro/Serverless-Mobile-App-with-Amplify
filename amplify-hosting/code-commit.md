@@ -20,6 +20,6 @@ git 명령어를 통해 리포지토리에 코드를 등록합니다.
 cd ~/environment/my-react-app/
 git init
 git remote add origin codecommit://my-react-app
+git checkout -b main
 git push -u origin main
-
 ```
